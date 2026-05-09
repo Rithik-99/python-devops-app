@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: helloworld-pod
+spec:
+  containers:
+  - name: helloworld
+    image: rithik9/helloworld:latest
+    ports:
+    - containerPort: 5000
